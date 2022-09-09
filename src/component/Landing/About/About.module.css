@@ -1,0 +1,164 @@
+.main {
+  padding-top: 9.375rem;
+  padding-bottom: 6.25rem;
+}
+
+.aboutSection {
+  width: 70%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutSection h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.aboutSection p {
+  width: 50%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 1.875rem;
+  line-height: 1.875rem;
+}
+
+.aboutSection button {
+  border: none;
+  background: transparent;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
+}
+
+.wrapper {
+  margin-top: 4.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.firstTalk,
+.secondTalk {
+  width: 100%;
+  border: 1px solid rgb(241, 202, 129);
+  padding: 1.875rem 1.563rem;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  border-radius: 0.25rem;
+  padding-top: 3.125rem;
+}
+
+.secondTalk {
+  margin-top: 2.5rem;
+}
+
+.secondTalk:hover,
+.firstTalk:hover {
+  border: 1px solid orangered;
+}
+
+.firstTalk h4,
+.secondTalk h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+.firstTalk p,
+.secondTalk p {
+  width: 100%;
+}
+
+.firstTalk div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.firstTalk span {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color {
+  color: orangered;
+}
+
+.secondTalk .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex span,
+.anotherFlex {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.secondTalk h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  margin-top: 1.875rem;
+  line-height: 1.875rem;
+  font-weight: bolder;
+}
+
+.secondTalk .school {
+  font-family: "Josefin Sans", sans-serif;
+  color: orangered;
+  margin-top: 1.875rem;
+  line-height: 3.125rem;
+  font-size: 1.3rem;
+}
+
+.anotherFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.7rem;
+  margin-top: 5rem;
+  line-height: 1.875rem;
+  font-weight: bolder;
+}
+
+.cardFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.card {
+  padding: 2rem 1rem;
+  border: 1px solid rgb(241, 202, 129);
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  font-size: 1.2rem;
+  width: 27%;
+  margin-top: 2rem;
+}
+
+.card:hover {
+  border: 1px solid orangered;
+}
+
+.card h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.card .paragraph {
+  line-height: 1rem;
+  color: orangered;
+  font-family: "Josefin Sans", sans-serif;
+}

@@ -1,0 +1,23 @@
+.main {
+  width: 100%;
+  padding-top: 9.375rem;
+  margin-bottom: 3.125rem;
+}
+
+.objectiveContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.objectiveContainer h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  line-height: 5.5rem;
+}
+
+.objectiveContainer p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 1.875rem;
+  line-height: 2rem;
+}

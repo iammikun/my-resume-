@@ -1,0 +1,47 @@
+.main {
+  padding-top: 12.5rem;
+}
+
+.heroSection,
+.singleCol {
+  width: 70%;
+  margin: 0 auto;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.heroSection p {
+  font-size: 1.2rem;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.063rem;
+  line-height: 2.813rem;
+}
+
+.heroSection h1 {
+  font-size: 4rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  line-height: 5rem;
+  letter-spacing: 0.063rem;
+}
+
+.heroSection .textSection {
+  color: rgb(83, 83, 83);
+}
+
+.heroSection .paragraph {
+  width: 60%;
+  line-height: 1.875rem;
+  margin-top: 1.25rem;
+}
+
+.heroSection .paragraph span {
+  color: orangered;
+}
+
+.main a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+}

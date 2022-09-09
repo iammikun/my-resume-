@@ -1,0 +1,43 @@
+.socialIcon {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.singleCol {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2.2rem;
+  /* justify-content: space-evenly; */
+}
+
+.singleCol a {
+  font-size: 1.8rem;
+  opacity: 0.9;
+  transition: all 0.3s ease-out;
+}
+
+.singleCol > a:hover {
+  color: #4267b2;
+  box-shadow: -4px 9px 65px -12px rgba(0, 0, 0, 0.75);
+}
+
+.singleCol .instagram:hover {
+  color: #e1306c;
+  box-shadow: -4px 9px 65px -12px rgba(0, 0, 0, 0.75);
+}
+
+.singleCol .twitter:hover {
+  color: #1da1f2;
+  box-shadow: -4px 9px 65px -12px rgba(0, 0, 0, 0.75);
+}
+
+.singleCol .github:hover {
+  color: #333;
+  box-shadow: -4px 9px 65px -12px rgba(0, 0, 0, 0.75);
+}
+
+.singleCol .linkedin:hover {
+  color: #0077b5;
+  box-shadow: -4px 9px 65px -12px rgba(0, 0, 0, 0.75);
+}

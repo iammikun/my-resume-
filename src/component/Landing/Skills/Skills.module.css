@@ -1,0 +1,59 @@
+.main {
+  padding-top: 9.375rem;
+  padding-bottom: 6.25rem;
+}
+
+.skillsContent,
+.skillsContent2 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skillsContent h2,
+.skillsContent2 h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.skillsContent p {
+  font-size: 1.2rem;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 2.5rem;
+}
+
+.skillWrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.card {
+  padding: 2rem 1rem;
+  border: 1px solid rgb(241, 202, 129);
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  font-size: 1.2rem;
+  width: 17%;
+}
+
+.card h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+
+.card:hover {
+  border: 1px solid orangered;
+}
+
+.skillsContent2 {
+  margin-top: 5rem;
+}
+
+.skillsContent2 h3 {
+  font-size: 1.5rem;
+}

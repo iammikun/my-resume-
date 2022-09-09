@@ -1,0 +1,59 @@
+.main {
+  width: 100%;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+}
+
+.contactContent {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contactContent h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contactContent p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contactContent a {
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2.8rem;
+  margin-bottom: 1.25rem;
+  color: rgb(241, 202, 129);
+  border-bottom: 2px solid orangered;
+  padding: 2rem 1rem 0rem;
+  transition: 0.4s ease-out;
+  margin-bottom: 1rem;
+}
+
+.contactContent a:hover {
+  border-bottom: 2px solid rgb(241, 202, 129);
+  color: orangered;
+}
+
+.contactFooter {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 17rem;
+}
+
+.contactFooter span {
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 2.8rem;
+}
