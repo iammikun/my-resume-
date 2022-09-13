@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Hero.module.css";
 import Socials from "../../Socials/Socials.jsx";
+import "../../../App.js";
 
 const Hero = () => {
   return (

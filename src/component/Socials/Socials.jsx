@@ -2,7 +2,6 @@ import React from "react";
 import classes from "./Socials.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
   faInstagram,
   faTwitter,
   faGithub,
@@ -14,9 +13,6 @@ const Socials = () => {
     <div className={classes.main}>
       <div className={classes.socialIcon}>
         <div className={classes.singleCol}>
-          <a href="/">
-            <FontAwesomeIcon icon={faFacebook} />
-          </a>
           <a
             href="https://www.instagram.com/cykle__/?hl=en"
             className={classes.instagram}

@@ -14,7 +14,7 @@ const Summary = () => {
           environments. Teaching students in Software Engineering from basic
           undergraduate to advanced courses.
         </p>
-        <a href="/">
+        <a href="https://vercel.com/dashboard">
           <button>Check out my Works</button>
         </a>
       </div>

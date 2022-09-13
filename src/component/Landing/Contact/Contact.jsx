@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Contact.module.css";
-import Socials from "../../Socials/Socials.jsx";
+// import Socials from "../../Socials/Socials.jsx";
 
 const Contact = () => {
   return (
@@ -9,7 +9,7 @@ const Contact = () => {
         <h2>Contact Me</h2>
         <p>Interested to work with me?</p>
         <div>
-          <a href="/" className={classes.gMail}>
+          <a href="mailto:timilehinonifara@gmail.com" className={classes.gMail}>
             Send me an e-mail
           </a>
         </div>
@@ -17,6 +17,7 @@ const Contact = () => {
           I'm currently looking to join a team of creative designers and
           developers.
         </p>
+        {/* <Socials /> */}
       </div>
       <div className={classes.contactFooter}>
         <div>

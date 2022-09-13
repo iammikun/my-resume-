@@ -1,35 +1,34 @@
 import React from "react";
-// import { Link } from "react-scroll";
 import classes from "./Header.module.css";
-// import { Link } from "react-router-dom";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {} from "@fortawesome/free-brands-svg-icons";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Header = () => {
   return (
     <div className={classes.main}>
       <header className={classes.header}>
-        <a href="#hero">
+        <Link to="/#hero">
           <h3>Timilehin</h3>
-        </a>
+        </Link>
         <ul className={classes.navLinks}>
           <li>
-            <a href="#objective">Objective</a>
+            <Link to="/#about">About</Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="/#summary">Summary</Link>
           </li>
           <li>
-            <a href="#summary">Summary</a>
+            <Link to="/#skills">Skills</Link>
           </li>
           <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+            <Link to="/#contact">Contact</Link>
           </li>
           <button onclick="location.href = 'Documents/Example.pdf';">
             Resume
           </button>
         </ul>
+        {/* <FontAwesomeIcon icon={} /> */}
       </header>
     </div>
   );
