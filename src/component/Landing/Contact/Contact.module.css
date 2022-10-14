@@ -57,3 +57,48 @@
   font-size: 1rem;
   line-height: 2.8rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .contactContent,
+  .contactFooter {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactContent,
+  .contactFooter {
+    width: 90%;
+  }
+
+  .contactContent p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contactFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactFooter span {
+    line-height: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    padding-top: 3rem;
+  }
+
+  .contactContent {
+    width: 95%;
+  }
+
+  .contactFooter {
+    margin-top: 13rem;
+    width: 95%;
+  }
+}

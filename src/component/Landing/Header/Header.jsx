@@ -1,17 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from "./Header.module.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {} from "@fortawesome/free-brands-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Header = () => {
+  const [toggle, setToggle] = useState(false);
+
   return (
     <div className={classes.main}>
       <header className={classes.header}>
         <Link to="/#hero">
           <h3>Timilehin</h3>
         </Link>
-        <ul className={classes.navLinks}>
+        <ul className={classes.navLinks} toggle={toggle}>
           <li>
             <Link to="/#about">About</Link>
           </li>
@@ -24,11 +25,15 @@ const Header = () => {
           <li>
             <Link to="/#contact">Contact</Link>
           </li>
-          <button onclick="location.href = 'Documents/Example.pdf';">
+          <button onClick="location.href = 'Documents/Example.pdf';">
             Resume
           </button>
         </ul>
-        {/* <FontAwesomeIcon icon={} /> */}
+        <div onClick={() => setToggle(!toggle)} className={classes.hamburger}>
+          <span className={classes.horizontal}></span>
+          <span className={classes.horizontal}></span>
+          <span className={classes.horizontal}></span>
+        </div>
       </header>
     </div>
   );

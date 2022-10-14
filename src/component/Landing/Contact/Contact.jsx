@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Contact.module.css";
-// import Socials from "../../Socials/Socials.jsx";
 
 const Contact = () => {
   return (
@@ -17,7 +16,6 @@ const Contact = () => {
           I'm currently looking to join a team of creative designers and
           developers.
         </p>
-        {/* <Socials /> */}
       </div>
       <div className={classes.contactFooter}>
         <div>

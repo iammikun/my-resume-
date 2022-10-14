@@ -43,3 +43,30 @@
   opacity: 0.9;
   border-bottom: 2px solid rgb(230, 186, 105);
 }
+
+@media screen and (max-width: 1024px) {
+  .summaryContent {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .summaryContent {
+    width: 90%;
+  }
+
+  .summaryContent p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .summaryContent {
+    width: 95%;
+  }
+
+  .main {
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}

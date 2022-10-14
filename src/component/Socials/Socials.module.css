@@ -35,3 +35,33 @@
   color: #0077b5;
   box-shadow: -4px 9px 65px -12px rgba(0, 0, 0, 0.75);
 }
+
+@media screen and (max-width: 1024px) {
+  .socialIcon {
+    width: 80%;
+  }
+
+  .singleCol {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .socialIcon {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .socialIcon {
+    width: 95%;
+  }
+
+  .singleCol a {
+    font-size: 1.6rem !important;
+  }
+
+  .singleCol {
+    gap: 2rem;
+  }
+}

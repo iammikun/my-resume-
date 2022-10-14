@@ -70,3 +70,38 @@
   color: #fff;
   cursor: pointer;
 }
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.hamburger .horizontal {
+  width: 25px;
+  height: 1.8px;
+  margin: 2.5px 0px;
+  background-color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .navLinks {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navLinks {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navLinks {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

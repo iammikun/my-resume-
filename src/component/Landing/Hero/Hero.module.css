@@ -7,7 +7,6 @@
   width: 70%;
   margin: 0 auto;
   align-items: center;
-  /* justify-content: space-around; */
 }
 
 .heroSection p {
@@ -44,4 +43,41 @@
   font-size: 1rem;
   color: black;
   font-family: "Josefin Sans", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroSection {
+    width: 80%;
+  }
+
+  .heroSection .paragraph {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroSection {
+    width: 90%;
+  }
+
+  .heroSection h1 {
+    font-size: 2.9rem;
+    line-height: 4rem;
+  }
+
+  .heroSection .paragraph {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .heroSection {
+    width: 95%;
+  }
+
+  .heroSection h1 {
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+  }
 }

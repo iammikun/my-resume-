@@ -162,3 +162,87 @@
   color: orangered;
   font-family: "Josefin Sans", sans-serif;
 }
+
+@media screen and (max-width: 1024px) {
+  .aboutSection {
+    width: 80%;
+  }
+
+  .aboutSection p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutSection {
+    width: 90%;
+  }
+
+  .aboutSection h2 {
+    font-size: 1.7rem;
+  }
+
+  .aboutSection p {
+    font-size: 1.1rem;
+  }
+
+  .firstTalk h4,
+  .secondTalk h4 {
+    font-size: 1.4rem;
+  }
+
+  .secondTalk h3 {
+    font-size: 1.2rem;
+  }
+
+  .secondTalk span {
+    font-size: 0.9rem;
+  }
+
+  .secondTalk .school {
+    font-size: 1.3rem;
+  }
+
+  .language h3 {
+    font-size: 1.5rem;
+  }
+
+  .cardFlex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flex span,
+  .anotherFlex span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .aboutSection {
+    width: 95%;
+  }
+
+  .firstTalk {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .firstTalk div {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
